@@ -14,4 +14,10 @@
                 android:fragment="com.android.settings.terminus.NavigationBarSettings"
                 android:title="@string/navigation_bar_title" />
 
+        <PreferenceScreen
+                android:key="privacy_guard_manager"
+                android:fragment="com.android.settings.terminus.privacyguard.PrivacyGuardManager"
+                android:summary="@string/privacy_guard_manager_summary"
+                android:title="@string/privacy_guard_manager_title" />
+
 </PreferenceScreen>
