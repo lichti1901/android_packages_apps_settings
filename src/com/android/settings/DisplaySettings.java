@@ -61,6 +61,9 @@ import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+import com.android.settings.hardware.DisplayColor;
+import com.android.settings.hardware.DisplayGamma;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -84,6 +87,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_TAP_TO_WAKE = "double_tap_wake_gesture";
     private static final String CATEGORY_ADVANCED = "advanced_display_prefs";
+    private static final String KEY_DISPLAY_COLOR = "color_calibration";
+    private static final String KEY_DISPLAY_GAMMA = "gamma_tuning";
 
     private static final String KEY_DOZE_FRAGMENT = "doze_fragment";
 
@@ -204,8 +209,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     return true;
                 }
             });
-        } else {
-            removePreference(KEY_AUTO_ROTATE);
+        }
+
+        if (!DisplayColor.isSupported()) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DISPLAY_COLOR));
+        }
+        if (!DisplayGamma.isSupported()) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DISPLAY_GAMMA));
         }
 
         PreferenceScreen advancedPrefs = (PreferenceScreen) findPreference(CATEGORY_ADVANCED);
