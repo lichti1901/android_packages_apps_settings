@@ -15,6 +15,12 @@
                 android:title="@string/navigation_bar_title" />
 
         <PreferenceScreen
+                android:key="advanced_sound_settings"
+                android:title="@string/advanced_sound_title"
+                android:persistent="false"
+                android:fragment="com.android.settings.terminus.SoundSettings" />
+
+        <PreferenceScreen
                 android:key="privacy_guard_manager"
                 android:fragment="com.android.settings.terminus.privacyguard.PrivacyGuardManager"
                 android:summary="@string/privacy_guard_manager_summary"

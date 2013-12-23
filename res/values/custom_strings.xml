@@ -97,4 +97,11 @@
     <string name="app_ops_btn_text">Modify</string>
     <string name="app_ops_no_item_text">This app has no changeable permissions.</string>
 
+    <!-- Sound settings -->
+    <string name="advanced_sound_title">Advanced options</string>
+    <string name="sound_title">Sound</string>
+    <!-- Volume Keys Media Control -->
+    <string name="volume_keys_control_media_stream">Media control</string>
+    <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
+
 </resources>
