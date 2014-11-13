@@ -71,6 +71,20 @@
 
     </dashboard-category>
 
+    <!-- CUSTOMIZATIONS -->
+    <dashboard-category
+            android:id="@+id/terminus_section"
+            android:title="@string/header_category_terminus" >
+
+        <!-- TERMINUS TWEAKS -->
+        <dashboard-tile
+                android:id="@+id/terminus_settings"
+                android:title="@string/terminus_settings_title"
+                android:fragment="com.android.settings.terminus.TerminusSettings" 
+                />
+
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
