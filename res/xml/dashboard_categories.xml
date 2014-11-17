@@ -80,7 +80,8 @@
         <dashboard-tile
                 android:id="@+id/terminus_settings"
                 android:title="@string/system_settings_title"
-                android:fragment="com.android.settings.terminus.SystemSettings" 
+                android:fragment="com.android.settings.terminus.SystemSettings"
+                android:icon="@drawable/ic_settings_terminus"
                 />
 
     </dashboard-category>
