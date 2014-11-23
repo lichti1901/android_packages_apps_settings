@@ -1957,7 +1957,7 @@
         </activity>
 
         <!-- TERMINUS TWEAKS START -->
-        <activity android:name=".terminus.SystemSettings" />
+        <activity android:name=".terminus.TerminusSettings" />
         <!-- TERMINUS TWEAKS END -->
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"

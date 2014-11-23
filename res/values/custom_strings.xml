@@ -7,7 +7,7 @@
 
     <!-- TERMINUS TWEAKS -->
     <string name="header_category_terminus">Customizations</string>
-    <string name="system_settings_title">Terminus Tweaks</string>
+    <string name="terminus_settings_title">Terminus Tweaks</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
