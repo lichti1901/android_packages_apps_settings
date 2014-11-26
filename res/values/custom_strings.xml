@@ -113,12 +113,17 @@
     <string name="volume_keys_title">Volume keys</string>
     <!-- Wakeup category -->
     <string name="display_category_wakeup_options_title">Wakeup options</string>
+    <!-- Media category -->
+    <string name="media_options_title">Media options</string>
     <!-- Volume Keys Media Control -->
     <string name="volume_keys_control_media_stream">Media control</string>
     <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
     <!-- Volume Rocker wake -->
     <string name="pref_volume_wake_title">Volume rocker wake</string>
     <string name="pref_volume_wake_summary">Pressing the volume rocker up/down will wake the device</string>
+    <!-- Volume adjust sound -->
+    <string name="volume_key_adjust_sound_title">Volume key adjustment sound</string>
+    <string name="volume_key_adjust_sound_summary">Play sound when adjusting volume with volume keys</string>
 
     <!-- App Circle Sidebar -->
     <string name="app_circle_bar_title">App sidebar</string>
