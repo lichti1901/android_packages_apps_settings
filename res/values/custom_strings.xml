@@ -129,6 +129,13 @@
     <!-- Volume adjust sound -->
     <string name="volume_key_adjust_sound_title">Volume key adjustment sound</string>
     <string name="volume_key_adjust_sound_summary">Play sound when adjusting volume with volume keys</string>
+    <!-- Cursor category -->
+    <string name="cursor_options_title">Cursor options</string>
+    <!-- Volume key cursor control -->
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
     <!-- App Circle Sidebar -->
     <string name="app_circle_bar_title">App sidebar</string>

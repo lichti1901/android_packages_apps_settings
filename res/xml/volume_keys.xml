@@ -49,4 +49,18 @@
 
         </PreferenceCategory>
 
+        <PreferenceCategory
+                android:key="category_cursor_options"
+                android:title="@string/cursor_options_title" >
+
+                <ListPreference
+                        android:dialogTitle="@string/volume_key_cursor_control_title"
+                        android:entries="@array/volume_key_cursor_control_entries"
+                        android:entryValues="@array/volume_key_cursor_control_values"
+                        android:key="volume_key_cursor_control"
+                        android:persistent="false"
+                        android:title="@string/volume_key_cursor_control_title" />
+
+        </PreferenceCategory>
+
 </PreferenceScreen>

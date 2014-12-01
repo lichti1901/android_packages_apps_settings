@@ -47,10 +47,15 @@ public class VolumeKeys extends SettingsPreferenceFragment implements
     private static final String KEY_MEDIA_CATEGORY = "category_wakeup_options";
     private static final String VOLUME_KEY_ADJUST_SOUND = "volume_key_adjust_sound";
 
+    // cursor control
+    private static final String KEY_CURSOR_CATEGORY = "category_cursor_options";
+    private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
+
     private PreferenceCategory mWakeUpOptions;
     private SwitchPreference mVolumeKeysControlMedia;
     private SwitchPreference mVolumeWake;
     private SwitchPreference mVolumeKeyAdjustSound;
+    private ListPreference mVolumeKeyCursorControl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,6 +81,15 @@ public class VolumeKeys extends SettingsPreferenceFragment implements
         mVolumeKeyAdjustSound.setOnPreferenceChangeListener(this);
         mVolumeKeyAdjustSound.setChecked(Settings.System.getInt(getContentResolver(),
                 VOLUME_KEY_ADJUST_SOUND, 1) != 0);
+
+        // cursor control
+        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
+        if (mVolumeKeyCursorControl != null) {
+            mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
+            mVolumeKeyCursorControl.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                    .getContentResolver(), Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0)));
+            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
+        }
     }
 
     @Override
@@ -107,6 +121,15 @@ public class VolumeKeys extends SettingsPreferenceFragment implements
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(), VOLUME_KEY_ADJUST_SOUND,
                     value ? 1: 0);
+            return true;
+        }
+        else if (preference == mVolumeKeyCursorControl) {
+            String volumeKeyCursorControl = (String) objValue;
+            int volumeKeyCursorControlValue = Integer.parseInt(volumeKeyCursorControl);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, volumeKeyCursorControlValue);
+            int volumeKeyCursorControlIndex = mVolumeKeyCursorControl.findIndexOfValue(volumeKeyCursorControl);
+            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
             return true;
         }
         return true;
