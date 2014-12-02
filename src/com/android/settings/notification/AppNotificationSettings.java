@@ -24,6 +24,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.preference.Preference;
+import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
@@ -111,6 +112,21 @@ public class AppNotificationSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = getActivity();
+        refreshSettings();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        refreshSettings();
+    }
+
+    private void refreshSettings() {
+        PreferenceScreen prefs = getPreferenceScreen();
+        if (prefs != null) {
+            prefs.removeAll();
+        }
+
         Intent intent = getActivity().getIntent();
         if (DEBUG) Log.d(TAG, "onCreate getIntent()=" + intent);
         if (intent == null) {
@@ -139,6 +155,8 @@ public class AppNotificationSettings extends SettingsPreferenceFragment {
         }
 
         addPreferencesFromResource(R.xml.app_notification_settings);
+        prefs = getPreferenceScreen();
+
         mBlock = (SwitchPreference) findPreference(KEY_BLOCK);
         mPriority = (SwitchPreference) findPreference(KEY_PRIORITY);
         mSensitive = (SwitchPreference) findPreference(KEY_SENSITIVE);
@@ -150,7 +168,7 @@ public class AppNotificationSettings extends SettingsPreferenceFragment {
         final boolean enabled = getLockscreenNotificationsEnabled();
         final boolean allowPrivate = getLockscreenAllowPrivateNotifications();
         if (!secure || !enabled || !allowPrivate) {
-            getPreferenceScreen().removePreference(mSensitive);
+            prefs.removePreference(mSensitive);
         }
 
         mAppRow = NotificationAppList.loadAppRow(pm, info.applicationInfo, mBackend);
@@ -248,15 +266,16 @@ public class AppNotificationSettings extends SettingsPreferenceFragment {
         final boolean isSystemPkg = Utils.isSystemPackage(pm, info);
 
         if (isSystemPkg || !getLockscreenNotificationsEnabled()) {
-            getPreferenceScreen().removePreference(mShowNoOngoingOnKeyguard);
-            getPreferenceScreen().removePreference(mShowOnKeyguard);
+            prefs.removePreference(mShowNoOngoingOnKeyguard);
+            prefs.removePreference(mShowOnKeyguard);
         }
 
         if (isSystemPkg) {
-            getPreferenceScreen().removePreference(mBlock);
-            getPreferenceScreen().removePreference(mHeadsUp);
+            prefs.removePreference(mBlock);
+            prefs.removePreference(mHeadsUp);
             mPriority.setDependency(null); // don't have it depend on a preference that's gone
         }
+
     }
 
     private boolean getLockscreenNotificationsEnabled() {
