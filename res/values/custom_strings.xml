@@ -369,4 +369,8 @@
     <string name="dialog_restart">Restart</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="custom_density_warning">Restart the system and apply selected density?</string>
+
+    <!-- Quicksettings block on secure lockscreen -->
+    <string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
+    <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen.</string>
 </resources>
