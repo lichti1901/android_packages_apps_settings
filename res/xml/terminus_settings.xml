@@ -33,6 +33,11 @@
                 android:title="@string/privacy_guard_manager_title" />
 
         <PreferenceScreen
+                android:key="hfm_settings"
+                android:title="@string/hfm_pref_screen_title"
+                android:fragment="com.android.settings.terminus.hfm.HfmSettings" />
+
+        <PreferenceScreen
                 android:key="wakelock_blocker"
                 android:fragment="com.android.settings.terminus.WakeLockBlocker"
                 android:title="@string/wakelock_blocker_title" />
