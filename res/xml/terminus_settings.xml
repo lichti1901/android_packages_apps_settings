@@ -26,4 +26,9 @@
                 android:summary="@string/app_circle_sidebar_summary_real"
                 android:fragment="com.android.settings.terminus.AppCircleSidebar" />
 
+        <PreferenceScreen
+                android:key="hfm_settings"
+                android:title="@string/hfm_pref_screen_title"
+                android:fragment="com.android.settings.terminus.hfm.HfmSettings" />
+
 </PreferenceScreen>
