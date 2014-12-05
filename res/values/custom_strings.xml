@@ -155,4 +155,10 @@
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Restart SystemUI</string>
 
+    <!-- LockClock and Weather -->
+    <string name="clock_weather_title">LockClock and weather settings</string>
+    <string name="clock_weather_summary">Enable/disable weather + settings for cLock widget</string>
+    <string name="lock_clock_title">cLock settings</string>
+    <string name="lock_clock_summary">View or change how the \'cLock\' widget will be displayed.</string>
+
 </resources>
