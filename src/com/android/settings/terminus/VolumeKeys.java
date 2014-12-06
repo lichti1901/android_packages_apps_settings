@@ -51,11 +51,15 @@ public class VolumeKeys extends SettingsPreferenceFragment implements
     private static final String KEY_CURSOR_CATEGORY = "category_cursor_options";
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
+    // seek music
+    private static final String KEY_VOLBTN_MUSIC_CTRL = "volbtn_music_controls";
+
     private PreferenceCategory mWakeUpOptions;
     private SwitchPreference mVolumeKeysControlMedia;
     private SwitchPreference mVolumeWake;
     private SwitchPreference mVolumeKeyAdjustSound;
     private ListPreference mVolumeKeyCursorControl;
+    private SwitchPreference mVolBtnMusicCtrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,6 +94,12 @@ public class VolumeKeys extends SettingsPreferenceFragment implements
                     .getContentResolver(), Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0)));
             mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
         }
+
+        // seek music
+        mVolBtnMusicCtrl = (SwitchPreference) findPreference(KEY_VOLBTN_MUSIC_CTRL);
+        mVolBtnMusicCtrl.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.VOLUME_MUSIC_CONTROLS, 1) != 0);
+        mVolBtnMusicCtrl.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -130,6 +140,12 @@ public class VolumeKeys extends SettingsPreferenceFragment implements
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL, volumeKeyCursorControlValue);
             int volumeKeyCursorControlIndex = mVolumeKeyCursorControl.findIndexOfValue(volumeKeyCursorControl);
             mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
+            return true;
+        }
+        else if (KEY_VOLBTN_MUSIC_CTRL.equals(key)) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.VOLUME_MUSIC_CONTROLS,
+                    (Boolean) objValue ? 1 : 0);
             return true;
         }
         return true;
