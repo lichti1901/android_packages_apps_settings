@@ -162,11 +162,8 @@
     <string name="advanced_reboot_hide_on_keyguard">Hide on lock screen</string>
     <string name="advanced_reboot_show_always">Show always</string>
 
-    <!-- Statusbar native battery percent -->
-    <string name="general_string">General</string>
+    <!-- Statusbar-->
     <string name="status_bar_title">Status bar</string>
-    <string name="status_bar_native_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_native_battery_percentage_summary">Show hidden percentage</string>
 
     <!-- Quick Pulldown -->
     <string name="status_bar_quick_qs_pulldown_title">One finger QS pull down</string>
@@ -251,10 +248,6 @@
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
 
-    <!-- Battery text setting -->
-    <string name="status_bar_toggle_battery_text">Display battery level</string>
-    <string name="status_bar_toggle_battery_summary">Show battery level next to battery icon</string>
-
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Restart SystemUI</string>
 
@@ -288,5 +281,12 @@
     <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
+
+    <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
+    <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
 </resources>
