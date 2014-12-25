@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">terminus build date</string>
+    <string name="build_date">Terminus AOSP</string>
     <string name="build_date_default">2014-01-01-0000</string>
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">CPU</string>
