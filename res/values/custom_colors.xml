@@ -25,6 +25,7 @@
     <color name="exposed_secondary_text_dark">#b3ffffff</color>
     <color name="exposed_barPrimaryColor">#ff009688</color>
     <color name="exposed_barPredictionColor">@color/material_empty_color_light</color>
+    <color name="exposed_qs_tile_text">#de000000</color>
 
     <!-- DSLV colors -->
     <color name="dslv_icon_dark">#ff009688</color>
@@ -41,4 +42,7 @@
     <drawable name="expanded_item_bg">@android:color/background_light</drawable>
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
+
+    <!-- QS tiles -->
+    <color name="qs_tile_tint_color">#FF009587</color>
 </resources>
