@@ -201,4 +201,6 @@
     <string name="hfm_dialog_success">/4 hosts sources successfully applied!</string>
     <string name="hfm_dialog_conn_error">Error: No network connectivity</string>
 
+    <!-- BitSyko Layers  -->
+    <string name="bitsyko_layers">Layers</string>
 </resources>
