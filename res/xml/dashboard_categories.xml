@@ -81,7 +81,7 @@
                 android:id="@+id/terminus_settings"
                 android:title="@string/terminus_settings_title"
                 android:fragment="com.android.settings.terminus.TerminusSettings"
-                android:icon="@drawable/ic_settings_terminus"
+                android:icon="@drawable/ic_terminus_logo"
                 />
 
         <!-- BitSyko Layers App -->
