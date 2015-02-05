@@ -24,11 +24,17 @@
                 android:defaultValue="48"
                 android:persistent="false" />
 
+        <com.android.settings.terminus.SecureSettingSwitchPreference
+	        android:key="search_panel_enabled"
+	        android:title="@string/navigation_ring_enable_title"
+	        android:defaultValue="true" />
+
         <PreferenceScreen
 	        android:key="navigation_bar_ring"
 	        android:fragment="com.android.settings.terminus.NavRing"
 	        android:summary="@string/navigation_ring_summary"
-	        android:title="@string/navigation_ring_title" />
+	        android:title="@string/navigation_ring_title"
+                android:dependency="search_panel_enabled" />
 
         <com.android.settings.terminus.SystemSettingSwitchPreference
                 android:key="navigation_bar_menu_arrow_keys"
