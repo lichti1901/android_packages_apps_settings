@@ -99,7 +99,7 @@
     <!-- Privacy Guard -->
     <string name="app_security_title">Sécurité d\'application</string>
     <string name="privacy_guard_dlg_title">Activer le garde de la vie privée</string>
-    <string name="privacy_guard_enable_dlg_text">Quand le garde de la vie privée est activer %s ne pourra pas avoir accès aux données personnelles comme des contacts, des messages, l\'emplacement ou des listes des appels téléphoniques.</string>
+    <string name="privacy_guard_enable_dlg_text">Quand le garde de la vie privée est activer %s ne pourra pas avoir accès aux données personnelles comme des contacts, des messages, l\\'emplacement ou des listes des appels téléphoniques.</string>
     <string name="privacy_guard_enable_dlg_system_app_text">When enabling Privacy Guard for the built-in app %s, the app will not be able to access personal data such as contacts, messages, location or call logs. This may cause other apps to misbehave.</string>
     <string name="privacy_guard_default_title">Activé par défaut</string>
     <string name="privacy_guard_default_summary">Ne pas accéder aux données à caractère personnel par défaut pour les nouvelles applications installés</string>
@@ -224,16 +224,16 @@
     <!-- Profiles -->
     <string name="profile_reset_title">Réinitialiser</string>
     <string name="profiles_add">Ajouter</string>
-    <string name="profile_choose_app">Choisissez l'application</string>
+    <string name="profile_choose_app">Choisissez l\'application</string>
 
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Double tapotement pour mettre en veille</string>
-    <string name="double_tap_to_sleep_summary">Double tapotement sur la barre de statut pour mettre l'appareil en veille</string>
+    <string name="double_tap_to_sleep_summary">Double tapotement sur la barre de statut pour mettre l\'appareil en veille</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Trafic réseau</string>
-    <string name="show_network_traffic_state">Trafic du réseau sur la barre d'état</string>
-    <string name="show_network_traffic_unit">Unité d'affichage</string>
+    <string name="show_network_traffic_state">Trafic du réseau sur la barre d\'état</string>
+    <string name="show_network_traffic_unit">Unité d\'affichage</string>
     <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
     <string name="show_network_traffic_disable">Désactiver</string>
     <string name="show_network_traffic_up">Sortant</string>
@@ -253,33 +253,33 @@
 
     <!-- Show/Hide Weather in expanded statusbar -->
     <string name="status_bar_show_weather_title">Afficher la météo</string>
-    <string name="status_bar_show_weather_summary">Afficher la météo dans l'en tête de la barre d'état</string>
+    <string name="status_bar_show_weather_summary">Afficher la météo dans l\'en tête de la barre d\'état</string>
 
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Redémarrer le SystemUI</string>
 
     <!-- LockClock and Weather -->
     <string name="lock_clock_title">Paramètres cLock</string>
-    <string name="lock_clock_summary">Voir ou changer comment le \\'cLock\\' widget va être afficher</string>
-    <string name="weather_clock_title">Météo dans la barre d'état</string>
-    <string name="weather_clock_summary">Voir ou changer les paramètres de la météo dans la barre d'état</string>
+    <string name="lock_clock_summary">Voir ou changer comment le \\\'cLock\\\' widget va être afficher</string>
+    <string name="weather_clock_title">Météo dans la barre d\'état</string>
+    <string name="weather_clock_summary">Voir ou changer les paramètres de la météo dans la barre d\'état</string>
 
     <!-- Hide power menu on lockscreen -->
-    <string name="power_category">Menu d'alimentation</string>
-    <string name="lockscreen_enable_power_menu_title">Afficher le menu d'alimentation dans l'écran de vérouillage</string>
-    <string name="lockscreen_enable_power_menu_summary">Cette option va uniquement désactiver le menu d'alimentation sur l'écran de vérouillage</string>
+    <string name="power_category">Menu d\'alimentation</string>
+    <string name="lockscreen_enable_power_menu_title">Afficher le menu d\'alimentation dans l\'écran de vérouillage</string>
+    <string name="lockscreen_enable_power_menu_summary">Cette option va uniquement désactiver le menu d\'alimentation sur l\'écran de vérouillage</string>
 
     <!-- Quicksettings block on secure lockscreen -->
     <string name="qs_category">Paramètres rapides</string>
-    <string name="block_on_secure_keyguard_title">Désactiver sur l'écran de vérouillage</string>
-    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l'écran de vérouillage</string>
+    <string name="block_on_secure_keyguard_title">Désactiver sur l\'écran de vérouillage</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l\'écran de vérouillage</string>
 
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le code PIN/MDP correct est entré</string>
 
     <!-- Lockscreen pin shuffle -->
-    <string name="lock_numpad_random_title">Changer l'ordre des numéros du clavier du code PIN</string>
+    <string name="lock_numpad_random_title">Changer l\'ordre des numéros du clavier du code PIN</string>
     <string name="lock_numpad_random_dialog_title">Clavier du code pin aléatoire</string>
     <string name="lock_numpad_random_off">Désactiver</string>
     <string name="lock_numpad_random_always">Toujours</string>
@@ -287,11 +287,11 @@
 
     <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Voir les statistiques portées disparues/surdénombrées </string>
-    <string name="show_unac_and_overcounted_stats_summary">Afficher dans les statistiques de la batterie l'utilisation portées disparues et surdénombrées .</string>
+    <string name="show_unac_and_overcounted_stats_summary">Afficher dans les statistiques de la batterie l\'utilisation portées disparues et surdénombrées .</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_title">Icônes de batterie</string>
-    <string name="status_bar_battery_summary">Changer l'icône de la batterie</string>
+    <string name="status_bar_battery_summary">Changer l\'icône de la batterie</string>
     <string name="status_bar_battery_style_title">Style du statut de la batterie</string>
     <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
@@ -303,12 +303,12 @@
     <string name="status_bar_battery_percentage_title">Afficher le pourcentage de batterie</string>
     <string name="status_bar_battery_percentage_dialog_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_percentage_default">Caché (par défaut)</string>
-    <string name="status_bar_battery_percentage_text_inside">A l'intérieur de l'icône</string>
-    <string name="status_bar_battery_percentage_text_next">A côté de l'icône</string>
+    <string name="status_bar_battery_percentage_text_inside">A l\'intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
 
     <!-- Battery saver -->
-    <string name="battery_saver_title">Couleur d'avertissement</string>
-    <string name="battery_saver_style_reset_message">Réinitialiser la couleur d'avertissement de l'économiseur de batterie ?</string>
+    <string name="battery_saver_title">Couleur d\'avertissement</string>
+    <string name="battery_saver_style_reset_message">Réinitialiser la couleur d\'avertissement de l\'économiseur de batterie ?</string>
 
     <!-- Lock Gesture settings -->
     <!-- Security & location settings screen, setting option name -->
@@ -326,7 +326,7 @@
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
     <string name="lockgesture_recording_intro_header">Dessinez un geste de déverrouillage:</string>
     <!-- Security & location settings screen, change unlock gesture screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
-    <string name="lockgesture_recording_intro_footer">Appuyez sur Menu pour de l'aide.</string>
+    <string name="lockgesture_recording_intro_footer">Appuyez sur Menu pour de l\'aide.</string>
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen while drawing pattern -->
     <string name="lockgesture_recording_inprogress">Relâchez le doigt lorsque vous avez terminé.</string>
     <!-- Security & location settings screen, change unlock gesture screen message on top of screen after drawing pattern -->
@@ -347,11 +347,11 @@
     <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
     <string name="lockgesture_settings_enable_title">Geste requis</string>
     <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
-    <string name="lockgesture_settings_enable_summary">Vous devez dessiner le geste pour dévérouiller l'écran</string>
+    <string name="lockgesture_settings_enable_summary">Vous devez dessiner le geste pour dévérouiller l\'écran</string>
    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible gesture is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
     <string name="lockgesture_settings_enable_visible_pattern_title">Rendre le geste visible</string>
     <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">Le bouton d'alimentation vérouille immédiatement le téléphone</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">Le bouton d\'alimentation vérouille immédiatement le téléphone</string>
     <!-- Security & location settings screen, setting option name when user has never set an unlock gesture -->
     <string name="lockgesture_settings_choose_lock_pattern">Réglez le geste de déverrouillage</string>
     <!-- Security & location settings screen, setting option name when user has previously set an unlock gesture and wants to change to a new pattern -->
@@ -420,7 +420,7 @@
     <string name="qs_tile_display_rotation">Rotation</string>
     <string name="qs_tile_flashlight">Lampe de poche</string>
     <string name="qs_tile_location">Emplacement</string>
-    <string name="qs_tile_cast_screen">Caster l'écran</string>
+    <string name="qs_tile_cast_screen">Caster l\'écran</string>
     <string name="qs_tile_hotspot">Hotspot</string>
     <string name="qs_tile_notifications">Notifications</string>
     <string name="qs_tile_nfc">NFC</string>
@@ -446,24 +446,24 @@
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Bureau élargi</string>
     <string name="expanded_hide_nothing">Ne rien cacher</string>
-    <string name="expanded_hide_status">Masquer la barre d'état</string>
+    <string name="expanded_hide_status">Masquer la barre d\'état</string>
     <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
     <string name="expanded_hide_both">Masquer les deux à la fois</string>
     <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application pour le bureau élargi,désactiver "Activé pour tous"</string>
     <string name="expanded_desktop_state">Etat expansé</string>
     <string name="expanded_enabled_for_all">Activé pour tous</string>
-    <string name="expanded_user_configurable">Configurable par l'utilisateur</string>
+    <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
     <string name="expanded_desktop_style">Style du bureau élargi</string>
     <string name="expanded_desktop_style_description">Choisissez un style de bureau élargi par défaut</string>
     <string name="expanded_desktop_title">Options du bureau élargi</string>
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_settings_title">Écran de verrouillage</string>
-    <string name="lockscreen_targets_message">Raccourcis de l'écran de verouillage</string>
+    <string name="lockscreen_targets_message">Raccourcis de l\'écran de verouillage</string>
     <string name="lockscreen_default_target">Par défaut</string>
     <string name="lockscreen_none_target">Aucun</string>
-    <string name="lockscreen_message">Appuyez sur l'icône de gauche ou de droite pour réaffecter un raccourci de l'écran de verrouillage .</string>
-    <string name="lockscreen_choose_action_title">Choisissez l'action</string>
+    <string name="lockscreen_message">Appuyez sur l\'icône de gauche ou de droite pour réaffecter un raccourci de l\'écran de verrouillage .</string>
+    <string name="lockscreen_choose_action_title">Choisissez l\'action</string>
 
     <string name="profile_applist_title">Applications</string>
     <string name="picker_activities">Activités</string>
@@ -479,12 +479,12 @@
     <string name="add_heads_up_blacklist_summary">Ne plus afficher les heads-up à partir de ces applications</string>
     <string name="heads_up_dnd_title">Ne pas déranger</string>
     <string name="heads_up_blacklist_title">Liste noire</string>
-    <string name="heads_up_disabled_notice">Pour permettre aux applications d' afficher des notifications interactives dans une fenêtre pop-up sur votre écran,activer les heads up</string>
+    <string name="heads_up_disabled_notice">Pour permettre aux applications d\' afficher des notifications interactives dans une fenêtre pop-up sur votre écran,activer les heads up</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Temps libre</string>
     <string name="heads_up_time_out_summary">La notification va être montrer pendant <xliff:g id="number">%d</xliff:g> secondes</string>
-    <string name="heads_up_time_out_never_summary">La notification sera afficher jusqu'à ce qu'elle soit rejeté</string>
+    <string name="heads_up_time_out_never_summary">La notification sera afficher jusqu\'à ce qu\'elle soit rejeté</string>
     <string name="heads_up_time_out_2sec">2 secondes</string>
     <string name="heads_up_time_out_4sec">4 secondes</string>
     <string name="heads_up_time_out_6sec">6 secondes</string>
@@ -507,23 +507,23 @@
     <string name="navbar_button_tint_title">Navigation button tint</string>
 
     <!-- Doze options -->
-    <string name="display_category_doze_options_title">Options de l'affichage du mode veille (doze)</string>
+    <string name="display_category_doze_options_title">Options de l\'affichage du mode veille (doze)</string>
     <string name="doze_timeout_title">Délai du mode veille</string>
-    <string name="doze_timeout_summary">Temps que l'écran reste allumé pendant l'impulsion de notification</string>
+    <string name="doze_timeout_summary">Temps que l\'écran reste allumé pendant l\'impulsion de notification</string>
     <string name="doze_trigger_motion_title">Capteur du Doze</string>
-    <string name="doze_trigger_motion_summary_on">L'impulsion du Doze sera déclenchée par un geste/Mouvement important et notification</string>
-    <string name="doze_trigger_motion_summary_off">L'impulsion du Doze ne sera déclenché uniquement par les notifications</string>
+    <string name="doze_trigger_motion_summary_on">L\'impulsion du Doze sera déclenchée par un geste/Mouvement important et notification</string>
+    <string name="doze_trigger_motion_summary_off">L\'impulsion du Doze ne sera déclenché uniquement par les notifications</string>
 
     <!-- Display settings screen, setting options for LCD density -->
     <string name="lcd_density">Densité LCD</string>
     <string name="lcd_density_summary">%d DPI</string>
-    <string name="lcd_density_default">Défaut de l'appareil</string>
+    <string name="lcd_density_default">Défaut de l\'appareil</string>
     <string name="lcd_density_unsupported">Non pris en charge</string>
     <string name="restarting_ui">Redémarrage</string>
 
     <!-- Nav Ring Targets -->
-    <string name="navigation_ring_title">Raccourcis de l'anneau de navigation</string>
-    <string name="navigation_ring_message">Appuyez sur l'icône d'édition pour ouvrir l'anneau de navigation pour l'édition.\n\nSelect une cible pour configurer son comportement .\n\nTap la marque icône de coche pour enregistrer vos modifications , ou de restauration pour réinitialiser les paramètres par défaut.</string>
+    <string name="navigation_ring_title">Raccourcis de l\'anneau de navigation</string>
+    <string name="navigation_ring_message">Appuyez sur l\'icône d\'édition pour ouvrir l\'anneau de navigation pour l\'édition.\n\nSelect une cible pour configurer son comportement .\n\nTap la marque icône de coche pour enregistrer vos modifications , ou de restauration pour réinitialiser les paramètres par défaut.</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Panneau des applications récentes</string>
@@ -554,16 +554,16 @@
     <string name="swap_volume_buttons_summary">Ajuste les boutons de volume celon votre rotation actuelle</string>
 
     <!-- Ignore interruptions during media playback -->
-    <string name="interruptions_ignore_while_media_title">Empêcher l'esquive audio</string>
+    <string name="interruptions_ignore_while_media_title">Empêcher l\'esquive audio</string>
     <string name="interruptions_ignore_while_media_summary">Ne pas réduire le volume de la lecture de médias quand une notification arrive</string>
 
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Double-cliquez pour mettre en veille</string>
-    <string name="double_tap_sleep_nav_bar_summary">Double-cliquez sur la barre de navigation pour mettre l'appareil en veille</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double-cliquez sur la barre de navigation pour mettre l\'appareil en veille</string>
 
     <!-- Status bar greeting -->
-    <string name="status_bar_greeting_title">Message d'accueil</string>
-    <string name="status_bar_greeting_summary">Afficher un message d'accueil personnalisé dans la barre d'état après le déverrouillage de l'appareil</string>
-    <string name="status_bar_greeting_dialog">Réglez votre message d'accueil</string>
+    <string name="status_bar_greeting_title">Message d\'accueil</string>
+    <string name="status_bar_greeting_summary">Afficher un message d\'accueil personnalisé dans la barre d\'état après le déverrouillage de l\'appareil</string>
+    <string name="status_bar_greeting_dialog">Réglez votre message d\'accueil</string>
     <string name="status_bar_greeting_main">Bienvenue sur la rom TERMINUS</string>
 </resources>
