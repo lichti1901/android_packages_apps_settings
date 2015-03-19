@@ -212,359 +212,358 @@
     <string name="battery_light_full_color_title">Complètement chargée</string>
 
     <!-- Lights settings screen, notification light settings -->
-    <string name="notification_light_title">Notification light</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="notification_light_applist_title">Apps</string>
-    <string name="notification_light_phonelist_title">Phone</string>
-    <string name="notification_light_use_custom">Use custom values</string>
-    <string name="notification_light_default_value">Default</string>
-    <string name="notification_light_missed_call_title">Missed call</string>
-    <string name="notification_light_voicemail_title">Voicemail</string>
+    <string name="notification_light_title">Voyant de notification</string>
+    <string name="notification_light_general_title">Général</string>
+    <string name="notification_light_applist_title">Applications</string>
+    <string name="notification_light_phonelist_title">Téléphone</string>
+    <string name="notification_light_use_custom">Utilisez des valeurs personnalisées</string>
+    <string name="notification_light_default_value">Par défaut</string>
+    <string name="notification_light_missed_call_title">Appel manqué</string>
+    <string name="notification_light_voicemail_title">Messagerie vocale</string>
 
     <!-- Profiles -->
-    <string name="profile_reset_title">Reset</string>
-    <string name="profiles_add">Add</string>
-    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_reset_title">Réinitialiser</string>
+    <string name="profiles_add">Ajouter</string>
+    <string name="profile_choose_app">Choisissez l'application</string>
 
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Double tapotement pour mettre en veille</string>
+    <string name="double_tap_to_sleep_summary">Double tapotement sur la barre de statut pour mettre l'appareil en veille</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="network_traffic_title">Trafic réseau</string>
+    <string name="show_network_traffic_state">Trafic du réseau sur la barre d'état</string>
+    <string name="show_network_traffic_unit">Unité d'affichage</string>
+    <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
+    <string name="show_network_traffic_disable">Désactiver</string>
+    <string name="show_network_traffic_up">Sortant</string>
+    <string name="show_network_traffic_down">Entrant</string>
+    <string name="show_network_traffic_all">Sortants et entrants</string>
+    <string name="show_network_traffic_bit">Bits par seconde</string>
+    <string name="show_network_traffic_byte">Bytes par seconde</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
 
     <!-- Show/Hide Search Bar -->
-    <string name="recents_show_searchbar">Disable Search Bar in Recents Menu</string>
-    <string name="recents_show_searchbar_summary">Disable or enable the Google search bar in the recents menu</string>
-    <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
+    <string name="recents_show_searchbar">Désactiver la barre de recherche Google dans les applications récentes</string>
+    <string name="recents_show_searchbar_summary">Désactiver ou activer la barre de recherche Google dans les applications récentes</string>
+    <string name="keywords_recents_show_searchbar">Désactiver le masquage de la barre de recherche</string>
 
     <!-- Show/Hide Weather in expanded statusbar -->
-    <string name="status_bar_show_weather_title">Show weather</string>
-    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+    <string name="status_bar_show_weather_title">Afficher la météo</string>
+    <string name="status_bar_show_weather_summary">Afficher la météo dans l'en tête de la barre d'état</string>
 
     <!-- Restart SystemUI -->
-    <string name="restart_systemui">Restart SystemUI</string>
+    <string name="restart_systemui">Redémarrer le SystemUI</string>
 
     <!-- LockClock and Weather -->
-    <string name="lock_clock_title">cLock settings</string>
-    <string name="lock_clock_summary">View or change how the \\'cLock\\' widget will be displayed.</string>
-    <string name="weather_clock_title">Status bar weather</string>
-    <string name="weather_clock_summary">View or change status bar weather settings</string>
+    <string name="lock_clock_title">Paramètres cLock</string>
+    <string name="lock_clock_summary">Voir ou changer comment le \\'cLock\\' widget va être afficher</string>
+    <string name="weather_clock_title">Météo dans la barre d'état</string>
+    <string name="weather_clock_summary">Voir ou changer les paramètres de la météo dans la barre d'état</string>
 
     <!-- Hide power menu on lockscreen -->
-    <string name="power_category">Power menu</string>
-    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
-    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+    <string name="power_category">Menu d'alimentation</string>
+    <string name="lockscreen_enable_power_menu_title">Afficher le menu d'alimentation dans l'écran de vérouillage</string>
+    <string name="lockscreen_enable_power_menu_summary">Cette option va uniquement désactiver le menu d'alimentation sur l'écran de vérouillage</string>
 
     <!-- Quicksettings block on secure lockscreen -->
-    <string name="qs_category">Quicksettings</string>
-    <string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
-    <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen.</string>
+    <string name="qs_category">Paramètres rapides</string>
+    <string name="block_on_secure_keyguard_title">Désactiver sur l'écran de vérouillage</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l'écran de vérouillage</string>
 
     <!--Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le code PIN/MDP correct est entré</string>
 
     <!-- Lockscreen pin shuffle -->
-    <string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
-    <string name="lock_numpad_random_dialog_title">PIN pad random order</string>
-    <string name="lock_numpad_random_off">Disabled</string>
-    <string name="lock_numpad_random_always">Always</string>
-    <string name="lock_numpad_random_on_request">On request</string>
+    <string name="lock_numpad_random_title">Changer l'ordre des numéros du clavier du code PIN</string>
+    <string name="lock_numpad_random_dialog_title">Clavier du code pin aléatoire</string>
+    <string name="lock_numpad_random_off">Désactiver</string>
+    <string name="lock_numpad_random_always">Toujours</string>
+    <string name="lock_numpad_random_on_request">Sur demande</string>
 
     <!-- Unaccounted and overcounted battery stats -->
-    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
-    <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
+    <string name="show_unac_and_overcounted_stats_title">Voir les statistiques portées disparues/surdénombrées </string>
+    <string name="show_unac_and_overcounted_stats_summary">Afficher dans les statistiques de la batterie l'utilisation portées disparues et surdénombrées .</string>
 
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_title">Battery icons</string>
-    <string name="status_bar_battery_summary">Change battery icons</string>
-    <string name="status_bar_battery_style_title">Battery status style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_title">Icônes de batterie</string>
+    <string name="status_bar_battery_summary">Changer l'icône de la batterie</string>
+    <string name="status_bar_battery_style_title">Style du statut de la batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Caché</string>
 
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
-    <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">Afficher le pourcentage de batterie</string>
+    <string name="status_bar_battery_percentage_dialog_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Caché (par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">A l'intérieur de l'icône</string>
+    <string name="status_bar_battery_percentage_text_next">A côté de l'icône</string>
 
     <!-- Battery saver -->
-    <string name="battery_saver_title">Warning color</string>
-    <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
+    <string name="battery_saver_title">Couleur d'avertissement</string>
+    <string name="battery_saver_style_reset_message">Réinitialiser la couleur d'avertissement de l'économiseur de batterie ?</string>
 
     <!-- Lock Gesture settings -->
     <!-- Security & location settings screen, setting option name -->
-    <string name="lockgesture_change_lock_pattern_label">Change unlock gesture</string>
+    <string name="lockgesture_change_lock_pattern_label">Changer le geste de déverouillage</string>
     <!-- Security & location settings screen, change unlock gesture screen instruction when the user chooses "Change unlock gesture".  We first ask the user toe nter the current pattern, and this is the message seen -->
-    <string name="lockgesture_change_lock_pin_label">Change unlock PIN</string>
+    <string name="lockgesture_change_lock_pin_label">Changer le code pin de déverouillage</string>
     <!-- Security & location settings screen, change unlock gesture screen instruction when the user chooses "Change unlock gesture".  We first ask the user toe nter the current pattern, and this is the message seen -->
-    <string name="lockgesture_need_to_unlock">Confirm saved gesture</string>
+    <string name="lockgesture_need_to_unlock">Confirmez le geste sauvegardé</string>
     <!-- Do not translate. -->
     <string name="lockgesture_need_to_unlock_footer" />
     <!-- Security & location settings screen, change unlock gesture screen instruction if user draws incorrect pattern -->
-    <string name="lockgesture_need_to_unlock_wrong">Try again:</string>
+    <string name="lockgesture_need_to_unlock_wrong">Essayer à nouveau:</string>
     <!-- Do not translate. -->
     <string name="lockgesture_need_to_unlock_wrong_footer" />
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
-    <string name="lockgesture_recording_intro_header">Draw an unlock gesture:</string>
+    <string name="lockgesture_recording_intro_header">Dessinez un geste de déverrouillage:</string>
     <!-- Security & location settings screen, change unlock gesture screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
-    <string name="lockgesture_recording_intro_footer">Press Menu for help.</string>
+    <string name="lockgesture_recording_intro_footer">Appuyez sur Menu pour de l'aide.</string>
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen while drawing pattern -->
-    <string name="lockgesture_recording_inprogress">Release finger when done.</string>
+    <string name="lockgesture_recording_inprogress">Relâchez le doigt lorsque vous avez terminé.</string>
     <!-- Security & location settings screen, change unlock gesture screen message on top of screen after drawing pattern -->
-    <string name="lockgesture_pattern_entered_header">Gesture recorded.</string>
+    <string name="lockgesture_pattern_entered_header">Geste enregistré.</string>
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen to confirm pattern -->
-    <string name="lockgesture_need_to_confirm">Draw gesture again to confirm:</string>
-    <string name="lockgesture_pattern_confirmed_header">Your new unlock gesture:</string>
+    <string name="lockgesture_need_to_confirm">Dessinez le signe à nouveau pour confirmer :</string>
+    <string name="lockgesture_pattern_confirmed_header">Votre nouveau geste de déverrouillage :</string>
     <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen.  After they draw a gesture and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
-    <string name="lockgesture_confirm_button_text">Confirm</string>
+    <string name="lockgesture_confirm_button_text">Confirmer</string>
     <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen.  After they draw a gesture and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
-    <string name="lockgesture_restart_button_text">Redraw</string>
+    <string name="lockgesture_restart_button_text">Redessiner</string>
     <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen. If they are supposed to enter their current gesture before being able to draw another one, and they screw up, they hit this button to try again -->
-    <string name="lockgesture_retry_button_text">Retry</string>
+    <string name="lockgesture_retry_button_text">Réessayer</string>
     <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen. Once they draw a new gesture and confirm it by drawing it again, they press this button to exit -->
-    <string name="lockgesture_continue_button_text">Continue</string>
+    <string name="lockgesture_continue_button_text">Continuer</string>
     <!-- Security & location settings screen, unlock screen activity title -->
-    <string name="lockgesture_settings_title">Unlock gesture</string>
+    <string name="lockgesture_settings_title">Geste de déverouillage</string>
     <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
-    <string name="lockgesture_settings_enable_title">Require gesture</string>
+    <string name="lockgesture_settings_enable_title">Geste requis</string>
     <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
-    <string name="lockgesture_settings_enable_summary">Must draw gesture to unlock screen</string>
+    <string name="lockgesture_settings_enable_summary">Vous devez dessiner le geste pour dévérouiller l'écran</string>
    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible gesture is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
-    <string name="lockgesture_settings_enable_visible_pattern_title">Make gesture visible</string>
+    <string name="lockgesture_settings_enable_visible_pattern_title">Rendre le geste visible</string>
     <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">Power button instantly locks</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">Le bouton d'alimentation vérouille immédiatement le téléphone</string>
     <!-- Security & location settings screen, setting option name when user has never set an unlock gesture -->
-    <string name="lockgesture_settings_choose_lock_pattern">Set unlock gesture</string>
+    <string name="lockgesture_settings_choose_lock_pattern">Réglez le geste de déverrouillage</string>
     <!-- Security & location settings screen, setting option name when user has previously set an unlock gesture and wants to change to a new pattern -->
-    <string name="lockgesture_settings_change_lock_pattern">Change unlock gesture</string>
+    <string name="lockgesture_settings_change_lock_pattern">Changer le geste de déverrouillage</string>
     <!-- Security & location settings screen, the help instructions (an animation) caption -->
-    <string name="lockgesture_settings_help_how_to_record">How to draw an unlock gesture</string>
+    <string name="lockgesture_settings_help_how_to_record">Comment dessiner un geste de déverrouillage</string>
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen after too many incorrect attempts -->
-    <string name="lockgesture_too_many_failed_confirmation_attempts_header">Too many incorrect attempts!</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_header">Trop de tentatives incorrectes !</string>
     <!-- Security & location settings screen, change unlock gesture screen countdown hint on bottom of screen after too many incorrect attempts -->
-    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Essayez à nouveau dans <xliff:g id="number">%d</xliff:g> secondes.</string>
     <!-- Toast shown if setting gesture was successful -->
-    <string name="lockpassword_gesture_set_toast">Gesture has been set</string>
+    <string name="lockpassword_gesture_set_toast">Le geste a été mis en place</string>
     <!-- Header on gesture confirm screen [CHAR LIMIT=30] -->
-    <string name="lockpassword_confirm_your_gesture_header">Confirm your gesture</string>
+    <string name="lockpassword_confirm_your_gesture_header">Confirmez votre geste</string>
     <!-- Header on first screen of choose gesture flow [CHAR LIMIT=30] -->
-    <string name="lockpassword_choose_your_gesture_header">Draw your gesture</string>
+    <string name="lockpassword_choose_your_gesture_header">Dessinez votre geste</string>
 
     <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=22] -->
-    <string name="unlock_set_unlock_gesture_title">Gesture</string>
+    <string name="unlock_set_unlock_gesture_title">Geste</string>
     <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=45] -->
-    <string name="unlock_set_unlock_gesture_summary">Low security, experimental</string>
+    <string name="unlock_set_unlock_gesture_summary">Sécurité faible,expérimentale</string>
 
     <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
-    <string name="unlock_set_unlock_mode_gesture">Gesture</string>
+    <string name="unlock_set_unlock_mode_gesture">Geste</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
-    <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_title">Bloqueur de wakelock</string>
+    <string name="wakelock_blocker_summary">Bloquer les wakelocks du système</string>
+    <string name="wakelock_blocker_save">Enregistrer</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Recharger</string>
+    <string name="wakelock_blocker_warning_title">Procédez avec prudence</string>
+    <string name="wakelock_blocker_warning">Bloquer les wakelocks peut potentiellement causé des instabilités,des crashes ou des pertes de données</string>
 
     <!-- Host File Manager -->
-    <string name="hfm_disable_ads_title">Disable Ads</string>
-    <string name="hfm_disable_ads_summary">Change hosts file to disable ads</string>
-    <string name="hfm_pref_screen_title">Ad blocker</string>
-    <string name="hfm_update_hosts">Update hosts file</string>
-    <string name="hfm_update_hosts_summary">Download and apply fresh hosts</string>
-    <string name="hfm_dialog_wait">Working, please wait...</string>
-    <string name="hfm_dialog_failed">Updating hosts file failed. Please try again.</string>
-    <string name="hfm_dialog_success">/4 hosts sources successfully applied!</string>
-    <string name="hfm_dialog_conn_error">Error: No network connectivity</string>
+    <string name="hfm_disable_ads_title">Désactiver les pubs</string>
+    <string name="hfm_disable_ads_summary">Modifiez le fichier hosts pour désactiver les pubs</string>
+    <string name="hfm_pref_screen_title">Bloqueur de pub</string>
+    <string name="hfm_update_hosts">Mettre à jour le fichier host</string>
+    <string name="hfm_update_hosts_summary">Télécharger et appliquer le nouveau fichier hosts</string>
+    <string name="hfm_dialog_wait">Préparation,merci de patienter...</string>
+    <string name="hfm_dialog_failed">La mise à jour du fichier hosts à échoué. Merci de réessayer.</string>
+    <string name="hfm_dialog_success">/4 sources appliquées avec succès!</string>
+    <string name="hfm_dialog_conn_error">Erreur: Aucune connexion </string>
 
     <!-- Notification drawer -->
-    <string name="notification_drawer_title">Notification drawer</string>
-    <string name="qs_category_title">Quick Settings</string>
-    <string name="qs_order_title">Select and order tiles</string>
-    <string name="qs_brightness_slider_title">Show brightness slider</string>
-    <string name="add_qs">Add new tile</string>
-    <string name="qs_action_delete">Delete</string>
-    <string name="qs_action_add">Add</string>
-    <string name="qs_action_no_more_tiles">No more tiles available</string>
-    <string name="qs_main_tiles_title">Enlarge first row</string>
-    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
-    <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
-    <string name="qs_advanced_location_title">Advanced location quick settings</string>
-    <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
+    <string name="notification_drawer_title">Tiroir de notification</string>
+    <string name="qs_category_title">Paramètres rapides</string>
+    <string name="qs_order_title">Sélectionnez et organiser les tuiles</string>
+    <string name="qs_brightness_slider_title">Afficher le curseur de luminosité</string>
+    <string name="add_qs">Ajouter une nouvelle tuile</string>
+    <string name="qs_action_delete">Effacer</string>
+    <string name="qs_action_add">Ajouter</string>
+    <string name="qs_action_no_more_tiles">Plus de tuiles disponibles</string>
+    <string name="qs_main_tiles_title">Agrandir la première ligne</string>
+    <string name="qs_main_tiles_summary_on">Les deux principales tuiles sur la première ligne</string>
+    <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque ligne</string>
+    <string name="qs_advanced_location_title">Paramètres de localisation avancés</string>
+    <string name="qs_advanced_location_summary">Activer les paramètres avancés pour la localisation</string>
 
     <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
-    <string name="qs_tile_display_inversion">Color inversion</string>
-    <string name="qs_tile_cellular_data">Data connection</string>
-    <string name="qs_tile_airplane_mode">Airplane mode</string>
+    <string name="qs_tile_display_inversion">Inversion des couleurs</string>
+    <string name="qs_tile_cellular_data">Connexion des données</string>
+    <string name="qs_tile_airplane_mode">Mode Avion</string>
     <string name="qs_tile_display_rotation">Rotation</string>
-    <string name="qs_tile_flashlight">Flashlight</string>
-    <string name="qs_tile_location">Location</string>
-    <string name="qs_tile_cast_screen">Cast screen</string>
+    <string name="qs_tile_flashlight">Lampe de poche</string>
+    <string name="qs_tile_location">Emplacement</string>
+    <string name="qs_tile_cast_screen">Caster l'écran</string>
     <string name="qs_tile_hotspot">Hotspot</string>
     <string name="qs_tile_notifications">Notifications</string>
     <string name="qs_tile_nfc">NFC</string>
-    <string name="qs_tile_compass">Compass</string>
+    <string name="qs_tile_compass">Boussole</string>
     <string name="qs_tile_headsup">Heads up</string>
-    <string name="qs_tile_data">Mobile data</string>
-    <string name="qs_battery_saver_tile">Battery saver</string>
-    <string name="qs_brightness_tile">Brightness</string>
-    <string name="qs_expanded_desktop_tile">Expanded desktop</string>
-    <string name="qs_tile_reboot">Reboot</string>
+    <string name="qs_tile_data">Données mobiles</string>
+    <string name="qs_battery_saver_tile">Économiseur de batterie</string>
+    <string name="qs_brightness_tile">Luminosité</string>
+    <string name="qs_expanded_desktop_tile">Bureau élargi</string>
+    <string name="qs_tile_reboot">Redémarrage</string>
 
     <!-- Wifi detail view -->
-    <string name="qs_wifi_detail_title">Detailed Wi\u2011Fi view</string>
-    <string name="qs_wifi_detail_summary">Enable detailed view for Wi\u2011Fi in Quick Settings</string>
+    <string name="qs_wifi_detail_title">Vue détaillée du Wi\u2011Fi </string>
+    <string name="qs_wifi_detail_summary">Activer la vue détailléee pour le Wi\u2011Fi dans les paramètres rapides</string>
 
     <!-- QuickSettings 4 columns -->
-    <string name="qs_four_columns_title">Show four tiles per row</string>
+    <string name="qs_four_columns_title">Afficher quatre tuiles par rangée</string>
 
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
+    <string name="quick_settings_vibrate_summary">Vibrer quand vous touchez les tuiles</string>
 
     <!-- Expanded desktop -->
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="power_menu_expanded_desktop">Bureau élargi</string>
+    <string name="expanded_hide_nothing">Ne rien cacher</string>
+    <string name="expanded_hide_status">Masquer la barre d'état</string>
+    <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
+    <string name="expanded_hide_both">Masquer les deux à la fois</string>
+    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application pour le bureau élargi,désactiver "Activé pour tous"</string>
+    <string name="expanded_desktop_state">Etat expansé</string>
+    <string name="expanded_enabled_for_all">Activé pour tous</string>
+    <string name="expanded_user_configurable">Configurable par l'utilisateur</string>
+    <string name="expanded_desktop_style">Style du bureau élargi</string>
+    <string name="expanded_desktop_style_description">Choisissez un style de bureau élargi par défaut</string>
+    <string name="expanded_desktop_title">Options du bureau élargi</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_settings_title">Lock screen</string>
-    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
-    <string name="lockscreen_default_target">Default</string>
-    <string name="lockscreen_none_target">None</string>
-    <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
-    <string name="lockscreen_choose_action_title">Choose action</string>
+    <string name="lockscreen_settings_title">Écran de verrouillage</string>
+    <string name="lockscreen_targets_message">Raccourcis de l'écran de verouillage</string>
+    <string name="lockscreen_default_target">Par défaut</string>
+    <string name="lockscreen_none_target">Aucun</string>
+    <string name="lockscreen_message">Appuyez sur l'icône de gauche ou de droite pour réaffecter un raccourci de l'écran de verrouillage .</string>
+    <string name="lockscreen_choose_action_title">Choisissez l'action</string>
 
-    <string name="profile_applist_title">Apps</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="profile_applist_title">Applications</string>
+    <string name="picker_activities">Activités</string>
+    <string name="select_custom_app_title">Sélectionnez une application personnalisée</string>
+    <string name="select_custom_activity_title">Sélectionnez une activité personnalisée</string>
 
     <!-- Heads Up -->
-    <string name="category_heads_up">Heads up notifications</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_dnd_summary">Don\\'t show heads up in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Don\\'t show heads up from these applications</string>
-    <string name="heads_up_dnd_title">Do not disturb</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
+    <string name="category_heads_up">Notifications Heads up</string>
+    <string name="summary_heads_up_enabled">Les notifications pop-up sont activés</string>
+    <string name="summary_heads_up_disabled">Les notifications pop-up sont désactivés</string>
+    <string name="add_heads_up_package">Ajouter une application</string>
+    <string name="add_heads_up_dnd_summary">Ne pas montrer les heads up dans ces applications</string>
+    <string name="add_heads_up_blacklist_summary">Ne plus afficher les heads-up à partir de ces applications</string>
+    <string name="heads_up_dnd_title">Ne pas déranger</string>
+    <string name="heads_up_blacklist_title">Liste noire</string>
+    <string name="heads_up_disabled_notice">Pour permettre aux applications d' afficher des notifications interactives dans une fenêtre pop-up sur votre écran,activer les heads up</string>
 
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_never_summary">Notification will show until it is dismissed</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
-    <string name="heads_up_time_out_never">Never</string>
+    <string name="heads_up_time_out_title">Temps libre</string>
+    <string name="heads_up_time_out_summary">La notification va être montrer pendant <xliff:g id="number">%d</xliff:g> secondes</string>
+    <string name="heads_up_time_out_never_summary">La notification sera afficher jusqu'à ce qu'elle soit rejeté</string>
+    <string name="heads_up_time_out_2sec">2 secondes</string>
+    <string name="heads_up_time_out_4sec">4 secondes</string>
+    <string name="heads_up_time_out_6sec">6 secondes</string>
+    <string name="heads_up_time_out_8sec">8 secondes</string>
+    <string name="heads_up_time_out_10sec">10 secondes</string>
+    <string name="heads_up_time_out_never">Jamais</string>
 
     <!-- BitSyko Layers  -->
     <string name="bitsyko_layers">Layers</string>
 
     <!-- QuickSettings collapse panel -->
-    <string name="quick_settings_collapse_title">Auto close panel</string>
-    <string name="quick_settings_collapse_summary">Close the quick settings panel upon toggle</string>
+    <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
+    <string name="quick_settings_collapse_summary">Fermez le panneau de réglages rapides sur le bouton à bascule</string>
 
     <!-- Linked / unlinked notification volume -->
-    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
-    <string name="notification_volume_option_title">Notification volume</string>
+    <string name="link_volume_option_title">Lier la sonnerie &amp; Volumes des notifications</string>
+    <string name="notification_volume_option_title">Volume de notification</string>
 
     <!-- Navigation bar button color -->
     <string name="navbar_button_tint_title">Navigation button tint</string>
 
     <!-- Doze options -->
-    <string name="display_category_doze_options_title">Ambient display (doze) options</string>
-    <string name="doze_timeout_title">Ambient display timeout</string>
-    <string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
-    <string name="doze_trigger_motion_title">Doze TriggerSensors</string>
-    <string name="doze_trigger_motion_summary_on">Doze pulse will be triggered by pick up gesture/significant motion sensor and notifications</string>
-    <string name="doze_trigger_motion_summary_off">Doze pulse will only be triggered by notifications</string>
+    <string name="display_category_doze_options_title">Options de l'affichage du mode veille (doze)</string>
+    <string name="doze_timeout_title">Délai du mode veille</string>
+    <string name="doze_timeout_summary">Temps que l'écran reste allumé pendant l'impulsion de notification</string>
+    <string name="doze_trigger_motion_title">Capteur du Doze</string>
+    <string name="doze_trigger_motion_summary_on">L'impulsion du Doze sera déclenchée par un geste/Mouvement important et notification</string>
+    <string name="doze_trigger_motion_summary_off">L'impulsion du Doze ne sera déclenché uniquement par les notifications</string>
 
     <!-- Display settings screen, setting options for LCD density -->
-    <string name="lcd_density">LCD density</string>
+    <string name="lcd_density">Densité LCD</string>
     <string name="lcd_density_summary">%d DPI</string>
-    <string name="lcd_density_default">Device default</string>
-    <string name="lcd_density_unsupported">Unsupported</string>
-    <string name="restarting_ui">Restarting</string>
+    <string name="lcd_density_default">Défaut de l'appareil</string>
+    <string name="lcd_density_unsupported">Non pris en charge</string>
+    <string name="restarting_ui">Redémarrage</string>
 
     <!-- Nav Ring Targets -->
-    <string name="navigation_ring_title">Navigation ring targets</string>
-    <string name="navigation_ring_message">Tap the edit icon to open the navigation ring for editing.\n\nSelect a target to configure its behavior.\n\nTap the check mark icon to save your changes, or restore to reset the settings to defaults.</string>
+    <string name="navigation_ring_title">Raccourcis de l'anneau de navigation</string>
+    <string name="navigation_ring_message">Appuyez sur l'icône d'édition pour ouvrir l'anneau de navigation pour l'édition.\n\nSelect une cible pour configurer son comportement .\n\nTap la marque icône de coche pour enregistrer vos modifications , ou de restauration pour réinitialiser les paramètres par défaut.</string>
 
     <!-- Recents panel -->
-    <string name="recents_panel_category">Recents panel</string>
-    <string name="show_clear_all_recents_button_title">Clear all button</string>
-    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-    <string name="recents_clear_all_location_title">Clear all location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
-    <string name="recents_clear_all_dismiss_all_summary">Include foreground task when clearing all</string>
+    <string name="recents_panel_category">Panneau des applications récentes</string>
+    <string name="show_clear_all_recents_button_title">Bouton tout effacer</string>
+    <string name="show_clear_all_recents_button_summary">Afficher le bouton effacer tout</string>
+    <string name="recents_clear_all_location_title">Emplacement du bouton</string>
+    <string name="recents_clear_all_location_top_right">En haut à droite</string>
+    <string name="recents_clear_all_location_top_left">En haut à gauche</string>
+    <string name="recents_clear_all_location_top_center">En haut au centre</string>
+    <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
+    <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+    <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
+    <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
+    <string name="recents_clear_all_dismiss_all_summary">Inclure les tâches de premier plan</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_disabled">Désactiver</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degrés</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
 
     <!-- Swap volume buttons when the screen is rotated -->
-    <string name="swap_volume_buttons_title">Swap vol buttons on rotation</string>
-    <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current rotation</string>
+    <string name="swap_volume_buttons_title">Réorienter les boutons de volume pendant la rotation</string>
+    <string name="swap_volume_buttons_summary">Ajuste les boutons de volume celon votre rotation actuelle</string>
 
     <!-- Ignore interruptions during media playback -->
-    <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
-    <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when
- a notification arrives</string>
+    <string name="interruptions_ignore_while_media_title">Empêcher l'esquive audio</string>
+    <string name="interruptions_ignore_while_media_summary">Ne pas réduire le volume de la lecture de médias quand une notification arrive</string>
 
     <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Double-tap to sleep</string>
-    <string name="double_tap_sleep_nav_bar_summary">Double tap navigation bar to put the device to sleep</string>
+    <string name="double_tap_sleep_nav_bar_title">Double-cliquez pour mettre en veille</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double-cliquez sur la barre de navigation pour mettre l'appareil en veille</string>
 
     <!-- Status bar greeting -->
-    <string name="status_bar_greeting_title">Greeting</string>
-    <string name="status_bar_greeting_summary">Display a custom greeting in the status bar after unlocking the device</string>
-    <string name="status_bar_greeting_dialog">Set your greeting</string>
-    <string name="status_bar_greeting_main">Welcome to TERMINUS</string>
+    <string name="status_bar_greeting_title">Message d'accueil</string>
+    <string name="status_bar_greeting_summary">Afficher un message d'accueil personnalisé dans la barre d'état après le déverrouillage de l'appareil</string>
+    <string name="status_bar_greeting_dialog">Réglez votre message d'accueil</string>
+    <string name="status_bar_greeting_main">Bienvenue sur la rom TERMINUS</string>
 </resources>
