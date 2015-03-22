@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Terminus AOSP</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+
+    <!-- TERMINUS TWEAKS -->
+    <string name="header_category_terminus">Personnalisations</string>
+    <string name="terminus_settings_title">Terminus Tweaks</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="attention">Attention</string>
+    <string name="enabled">Activé</string>
+    <string name="disabled">Désactivé</string>
+    <string name="default_string">Par défaut</string>
+    <string name="additional_options_title">Options supplémentaires</string>
+    <string name="reset_message">Réinitialiser toutes les entrées par défaut ?</string>
+    <string name="style_title">Style</string>
+    <string name="add">Ajouter</string>
+
+    <!-- Kill app long press back -->
+    <string name="kill_app_longpress_back">Tuez l\'application avec le bouton retour</string>
+    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier planen appuyant longuement sur la touche retour</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_title">Barre de navigation</string>
+    <!-- Navigation Bar Height -->
+    <string name="navigation_bar_height">Hauteur de barre de navigation</string>
+    <string name="navigation_bar_height_48">48dp (défault)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
+    <string name="navigation_bar_height_20">20dp</string>
+    <string name="navigation_bar_height_0">0dp (cacher)</string>
+    <!-- Navigation Bar Customization -->
+    <string name="navbar_customization_title">Boutons et disposition</string>
+    <string name="navbar_customization_summary">Ajoutez et/ou réordonnez des boutons</string>
+    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap save to commit your changes, or restore to reset the layout to default settings.</string>
+    <string name="navigation_restore_button_text">Rétablir\ndefaults</string>
+    <string name="navigation_edit_button_text">Éditer</string>
+    <string name="navigation_save_button_text">Enregistrer</string>
+    <string name="navigation_bar_reset_message">Supprimer les paramètres actuels et restaurer la configuration par défaut ?</string>
+    <string name="navigation_bar_arrow_keys_title">Afficher les touches fléchées tout en tapant</string>
+    <string name="navigation_bar_arrow_keys_summary">Affichage des touches de curseur gauche et droite lors de la frappe</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+   <!-- Color Picker -->
+    <string name="dialog_color_picker">Sélecteur de couleurs</string>
+    <string name="press_color_to_apply">Appuyez sur la couleur ci-dessous pour appliquer</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Assigner</string>
+    <string name="color_default">Défaut</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock">Horloge et date</string>
+    <string name="status_bar_clock_title">Style de l\'horloge et de la date</string>
+    <string name="clock_title_enable">Alignement</string>
+    <string name="clock_enabled">Activé</string>
+    <string name="clock_disabled">Désactivé</string>
+    <string name="clock_color_title">Couleur</string>
+    <string name="status_bar_clock_style_reset">Réinitialiser la couleur</string>
+    <string name="status_bar_show_clock_title">Afficher l\'heure et la date</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">L\'horloge en mode 24 heure est activé</string>
+    <string name="enable_clock_weekday">Jour de la semaine</string>
+    <string name="enable_clock_weekday_summary">Jour abrégé de la semaine avant l\'heure</string>
+    <string name="right_clock">Horloge à droite</string>
+    <string name="center_clock">Horloge au centre</string>
+    <string name="dont_show">Ne pas afficher</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Affichage de la date personnalisé avant l\'horloge</string>
+    <string name="clock_date_style">Style de la date</string>
+    <string name="clock_date_format">Format de la date</string>
+    <string name="clock_date_string_edittext_title">Doit être au format DateFormat ex. MM/jj/aa</string>
+    <string name="clock_date_string_edittext_summary">Entrez la chaîne</string>
+    <string name="am_pm_clock_normal">Taille de police normale</string>
+    <string name="am_pm_clock_small">Taille de police petite</string>
+    <string name="am_pm_clock_none">Ne pas afficher</string>
+    <string name="clock_date_display_none">Ne pas afficher</string>
+    <string name="clock_date_display_small">Taille de police petite</string>
+    <string name="clock_date_display_normal">Taille de police normale</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Minuscule</string>
+    <string name="clock_date_style_uppercase">Majuscule</string>
+    <string name="clock_date_format_custom">Format java personnalisée</string>
+    <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge ?</string>
+
+    <!-- Volume Keys settings -->
+    <string name="volume_keys_title">Touches de volume</string>
+    <!-- Wakeup category -->
+    <string name="display_category_wakeup_options_title">Options de réveil</string>
+    <!-- Media category -->
+    <string name="media_options_title">Options des médias</string>
+    <!-- Volume Keys Media Control -->
+    <string name="volume_keys_control_media_stream">Contrôle des médias</string>
+    <string name="volume_keys_control_media_stream_summary">Touches de volume contrôlent le volume des médias plutôt que celui des notifications</string>
+    <!-- Volume Rocker wake -->
+    <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
+    <string name="pref_volume_wake_summary">Appuyez sur les boutons de volume haut/bas pour réveiller l\'appareil</string>
+    <!-- Volume adjust sound -->
+    <string name="volume_key_adjust_sound_title">Adjustement du son des touches de volume</string>
+    <string name="volume_key_adjust_sound_summary">Jouer un son lors du réglage de volume avec les touches de volume</string>
+    <!-- Volume rocker music seek options -->
+    <string name="volbtn_music_controls_title">Contrôles de la musique avec les boutons de volume</string>
+    <string name="volbtn_music_controls_summary">Quand l\'écran est désactivé,appuyez longtemps sur les boutons de volume va changer la musique</string>
+    <string name="volume_button_toggle_info">Le réveil par les boutons de volume doit être désactivé</string>
+
+    <!-- App Circle Sidebar -->
+    <string name="app_circle_bar_title">Barre circulaire d\'application</string>
+    <string name="app_circle_sidebar_summary_real">Lancer les applications plus rapidement à partir d\'une barre latérale et ouvrir plusieurs applications sur un seul écran en plusieurs tâches</string>
+    <string name="app_circle_bar_summary">Afficher le lanceur d\'applications après avoir touché le côté droit de l\'écran</string>
+    <string name="app_circle_bar_included_apps_title">Applications inclus</string>
+    <string name="app_circle_bar_included_apps_summary">Les applications se montreront dans la barre d\'application</string>
+    <!-- App Circle trigger -->
+    <string name="trigger_width_title">Largeur de la zone d\'activation</string>
+    <string name="trigger_width_summary">Réglez la largeur de la zone d\'activation</string>
+    <string name="trigger_top_title">Position de la zone d\'activation</string>
+    <string name="trigger_top_summary">Ajustez la position de la zone d\'activation</string>
+    <string name="trigger_bottom_title">Hauteur de la zone d\'activation</string>
+    <string name="trigger_bottom_summary">Réglez la hauteur de la zone d\'activation</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Redémarrage avancée</string>
+    <string name="advanced_reboot_summary">Inclure les options dans le menu d\'alimentation pour redémarrer en mode recovery et bootloader</string>
+    <string name="advanced_reboot_dialog_title">Menu du redémarrage avancée</string>
+    <string name="advanced_reboot_disabled">Désactiver</string>
+    <string name="advanced_reboot_hide_on_keyguard">Cacher sur l\'écran de verrouillage</string>
+    <string name="advanced_reboot_show_always">Toujours afficher</string>
+
+    <!-- Statusbar-->
+    <string name="status_bar_title">Barre d\'état</string>
+
+    <!-- Quick Pulldown -->
+    <string name="status_bar_quick_qs_pulldown_title">Tirer vers le bas les paramètres rapide avec un doigt</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Que ce soit pour permettre à un doigt le glissement rapide sur le côté droit de la barre d\'état</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Double tapotement pour mettre en veille</string>
+    <string name="double_tap_to_sleep_summary">Double tapotement sur la barre de statut pour mettre l\'appareil en veille</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Désactiver la barre de recherche Google dans les applications récentes</string>
+    <string name="recents_show_searchbar_summary">Désactiver ou activer la barre de recherche Google dans les applications récentes</string>
+    <string name="keywords_recents_show_searchbar">Désactiver le masquage de la barre de recherche</string>
+
+    <!-- Show/Hide Weather in expanded statusbar -->
+    <string name="status_bar_show_weather_title">Afficher la météo</string>
+    <string name="status_bar_show_weather_summary">Afficher la météo dans l\'en tête de la barre d\'état</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Redémarrer le SystemUI</string>
+
+    <!-- LockClock and Weather -->
+    <string name="lock_clock_title">Paramètres cLock</string>
+    <string name="lock_clock_summary">Voir ou changer comment le \\\'cLock\\\' widget va être afficher</string>
+    <string name="weather_clock_title">Météo dans la barre d\'état</string>
+    <string name="weather_clock_summary">Voir ou changer les paramètres de la météo dans la barre d\'état</string>
+
+    <!-- Quicksettings block on secure lockscreen -->
+    <string name="qs_category">Paramètres rapides</string>
+    <string name="block_on_secure_keyguard_title">Désactiver sur l\'écran de vérouillage</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l\'écran de vérouillage</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le code PIN/MDP correct est entré</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Icônes de batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Caché</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Afficher le pourcentage de batterie</string>
+    <string name="status_bar_battery_percentage_dialog_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Caché (par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">A l\'intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
+
+    <!-- Host File Manager -->
+    <string name="hfm_disable_ads_title">Désactiver les pubs</string>
+    <string name="hfm_disable_ads_summary">Modifiez le fichier hosts pour désactiver les pubs</string>
+    <string name="hfm_pref_screen_title">Bloqueur de pub</string>
+    <string name="hfm_update_hosts">Mettre à jour le fichier host</string>
+    <string name="hfm_update_hosts_summary">Télécharger et appliquer le nouveau fichier hosts</string>
+    <string name="hfm_dialog_wait">Préparation,merci de patienter...</string>
+    <string name="hfm_dialog_failed">La mise à jour du fichier hosts à échoué. Merci de réessayer.</string>
+    <string name="hfm_dialog_success">/4 sources appliquées avec succès!</string>
+    <string name="hfm_dialog_conn_error">Erreur: Aucune connexion </string>
+
+    <!-- BitSyko Layers  -->
+    <string name="bitsyko_layers">Layers</string>
+
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">Couleur des boutons de la barre de navigation</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">Densité LCD</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Défaut de l\'appareil</string>
+    <string name="lcd_density_unsupported">Non pris en charge</string>
+    <string name="restarting_ui">Redémarrage</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Panneau des applications récentes</string>
+    <string name="show_clear_all_recents_button_title">Bouton tout effacer</string>
+    <string name="show_clear_all_recents_button_summary">Afficher le bouton effacer tout</string>
+    <string name="recents_clear_all_location_title">Emplacement du bouton</string>
+    <string name="recents_clear_all_location_top_right">En haut à droite</string>
+    <string name="recents_clear_all_location_top_left">En haut à gauche</string>
+    <string name="recents_clear_all_location_top_center">En haut au centre</string>
+    <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
+    <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+    <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
+    <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
+    <string name="recents_clear_all_dismiss_all_summary">Inclure les tâches de premier plan</string>
+
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Double-cliquez pour mettre en veille</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double-cliquez sur la barre de navigation pour mettre l\'appareil en veille</string>
+	
+	<!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Bloqueur de wakelocks</string>
+    <string name="wakelock_blocker_summary">Bloquer les wakelocks du système</string>
+    <string name="wakelock_blocker_save">Enregistrer</string>
+    <string name="wakelock_list_header">Wakelocks disponible</string>
+    <string name="wakelock_blocker_reload">Recharger</string>
+    <string name="wakelock_blocker_warning_title">Procédez avec prudence</string>
+    <string name="wakelock_blocker_warning">Blocage des wakelocks qui peut potentiellement causer des instabilités,crashes ou des pertes de données</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Lier la sonnerie &amp; Volumes des notifications</string>
+    <string name="notification_volume_option_title">Volume de notification</string>
+    <string name="ring_notification_volume_option_tile">Volume de la sonnerie et de notification</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="summary_doze_enabled">Activer</string>
+    <string name="summary_doze_disabled">Désactiver</string>
+    <string name="doze_overwrite_value_title">Écraser la valeur</string>
+    <string name="doze_overwrite_value_summary">Autoriser à remplacer la valeur par défaut avec la configuration de l\'utilisateur</string>
+
+    <string name="doze_list_mode_title">Mode de sommeil Doze mode</string>
+    <string name="doze_list_mode_summary">Option pour configurer le mode de sommeil</string>
+
+    <string name="doze_pulse_title">Réglages du temps</string>
+    <string name="doze_pulse_duration_in_title">Apparaître en fondu</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Durée de visibilité </string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Disparaître en fondu</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Impulsion sur les notifications</string>
+    <string name="doze_pulse_on_notifications_summary">Activation de détente seulement sur notifications en attente</string>
+
+    <string name="doze_shake_title">Paramètres de vibration</string>
+    <string name="doze_shake_mode_title">Mode de vibration</string>
+    <string name="doze_shake_mode_summary">Utiliser le détecteur de vibration pour déclencher l\'activation</string>
+    <string name="doze_shake_mode_test_summary">Voulez-vous tester le capteur de vibration ?</string>
+    <string name="doze_shake_mode_test_result">Appliquer la valeur actuelle ?</string>
+    <string name="doze_shake_test">Secouez votre périphérique maintenant</string>
+    <string name="doze_shake_it">Secousse détecté !</string>
+
+    <string name="doze_shake_acc_threshold_title">Seuil de secousse</string>
+    <string name="doze_shake_acc_threshold_summary">Configurez la force de secousse requise pour déclencher l\'activation</string>
+
+    <string name="doze_time_mode_title">Montrer l\'horloge &amp; date</string>
+    <string name="doze_time_mode_summary">Forcer à montrer le temps quand il n'y a pas de notification</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (défaut)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (défaut)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <string name="veryeasy_shake">Très facile</string>
+    <string name="easy_shake">Facile</string>
+    <string name="medium_shake">Défaut</string>
+    <string name="hard_shake">Difficile</string>
+    <string name="veryhard_shake">Très difficile</string>
+    <string name="strong_shake">Fort</string>
+
+    <string name="fully_mode">Mode complet</string>
+    <string name="pocket_shake_mode">Poche et vibration</string>
+    <string name="pocket_pulse_mode">Poche et impulsion</string>
+    <string name="pocket_only_mode">Poche</string>
+    <string name="shake_pulse_mode">Secousse et impulsion</string>
+    <string name="pulse_only_mode">Impulsion (défaut)</string>
+</resources>
