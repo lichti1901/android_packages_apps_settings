@@ -159,7 +159,7 @@
     <string name="status_bar_show_weather_summary">Afficher la météo dans l\'en tête de la barre d\'état</string>
 
     <!-- Restart SystemUI -->
-    <string name="restart_systemui">Redémarrer l'\interface utilisateur</string>
+    <string name="restart_systemui">Redémarrer l \interface utilisateur</string>
 
     <!-- LockClock and Weather -->
     <string name="lock_clock_title">Paramètres cLock</string>
@@ -281,7 +281,7 @@
     <string name="doze_shake_acc_threshold_summary">Configurer la force de secousse nécessaire pour déclencher l\'activation</string>
 
     <string name="doze_time_mode_title">Montrer l\'horloge &amp; date</string>
-    <string name="doze_time_mode_summary">Forcer à montrer le temps quand il n'y a pas de notification</string>
+    <string name="doze_time_mode_summary">Forcer à montrer le temps quand il n y a pas de notification</string>
 
     <string name="twohundred_ms">200 ms</string>
     <string name="fivehundred_ms">500 ms</string>
