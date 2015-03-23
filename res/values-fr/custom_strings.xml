@@ -22,8 +22,8 @@
     <string name="add">Ajouter</string>
 
     <!-- Kill app long press back -->
-    <string name="kill_app_longpress_back">Tuez l\'application avec le bouton retour</string>
-    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier plan en appuyant longuement sur la touche retour</string>
+    <string name="kill_app_longpress_back">Tuer l\'application avec le bouton retour</string>
+    <string name="kill_app_longpress_back_summary">Tuer l\'application au premier plan en appuyant longuement sur la touche retour</string>
 
     <!-- Navigation Bar -->
     <string name="navigation_bar_title">Barre de navigation</string>
@@ -40,7 +40,7 @@
     <string name="navigation_bar_height_0">0 dp (cacher)</string>
     <!-- Navigation Bar Customization -->
     <string name="navbar_customization_title">Boutons et disposition</string>
-    <string name="navbar_customization_summary">Ajoutez et/ou réarranger les boutons</string>
+    <string name="navbar_customization_summary">Ajouter et/ou réarranger les boutons</string>
     <string name="navigation_bar_help_text">Pour commencer appuyer sur l\'icône d\'édition pour déverrouiller la configuration de la barre de navigation.\n\nVous pouvez appuyer sur une icône pour modifier son raccourci, ou appuyer longuement pour réarranger la disposition.\n\nAppuyer sur \'sauvegarder\' pour valider vos modifications, ou \'restaurer par défaut\' pour réinitialiser la configuration.</string>
     <string name="navigation_restore_button_text">Rétablir\npar défaut</string>
     <string name="navigation_edit_button_text">Éditer</string>
@@ -54,7 +54,7 @@
 
    <!-- Color Picker -->
     <string name="dialog_color_picker">Sélecteur de couleurs</string>
-    <string name="press_color_to_apply">Appuyez sur la couleur ci-dessous pour appliquer</string>
+    <string name="press_color_to_apply">Appuyer sur la couleur ci-dessous pour appliquer</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -83,7 +83,7 @@
     <string name="clock_date_style">Style de la date</string>
     <string name="clock_date_format">Format de la date</string>
     <string name="clock_date_string_edittext_title">Doit être au format DateFormat ex. MM/jj/aa</string>
-    <string name="clock_date_string_edittext_summary">Entrez la chaîne</string>
+    <string name="clock_date_string_edittext_summary">Entrer la chaîne</string>
     <string name="am_pm_clock_normal">Taille de police normale</string>
     <string name="am_pm_clock_small">Taille de police petite</string>
     <string name="am_pm_clock_none">Ne pas afficher</string>
@@ -107,13 +107,13 @@
     <string name="volume_keys_control_media_stream_summary">Touches de volume contrôlent le volume des médias plutôt que celui des notifications</string>
     <!-- Volume Rocker wake -->
     <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
-    <string name="pref_volume_wake_summary">Appuyez sur les boutons de volume haut/bas pour réveiller l\'appareil</string>
+    <string name="pref_volume_wake_summary">Appuyer sur les boutons de volume haut/bas pour réveiller l\'appareil</string>
     <!-- Volume adjust sound -->
     <string name="volume_key_adjust_sound_title">Ajustement du son des touches de volume</string>
     <string name="volume_key_adjust_sound_summary">Jouer un son lors du réglage de volume avec les touches de volume</string>
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Contrôles de la musique avec les boutons de volume</string>
-    <string name="volbtn_music_controls_summary">Quand l\'écran est désactivé,appuyez longtemps sur les boutons de volume va changer la musique</string>
+    <string name="volbtn_music_controls_summary">Quand l\'écran est désactivé,appuyer longtemps sur les boutons de volume va changer la musique</string>
     <string name="volume_button_toggle_info">Le réveil par les boutons de volume doit être désactivé</string>
 
     <!-- App Circle Sidebar -->
@@ -124,11 +124,11 @@
     <string name="app_circle_bar_included_apps_summary">Les applications se montreront dans la barre d\'application</string>
     <!-- App Circle trigger -->
     <string name="trigger_width_title">Largeur de la zone d\'activation</string>
-    <string name="trigger_width_summary">Réglez la largeur de la zone d\'activation</string>
+    <string name="trigger_width_summary">Régler la largeur de la zone d\'activation</string>
     <string name="trigger_top_title">Position de la zone d\'activation</string>
-    <string name="trigger_top_summary">Ajustez la position de la zone d\'activation</string>
+    <string name="trigger_top_summary">Ajuster la position de la zone d\'activation</string>
     <string name="trigger_bottom_title">Hauteur de la zone d\'activation</string>
-    <string name="trigger_bottom_summary">Réglez la hauteur de la zone d\'activation</string>
+    <string name="trigger_bottom_summary">Régler la hauteur de la zone d\'activation</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Redémarrage avancée</string>
@@ -193,7 +193,7 @@
 
     <!-- Host File Manager -->
     <string name="hfm_disable_ads_title">Désactiver les pubs</string>
-    <string name="hfm_disable_ads_summary">Modifiez le fichier hosts pour désactiver les pubs</string>
+    <string name="hfm_disable_ads_summary">Modifier le fichier hosts pour désactiver les pubs</string>
     <string name="hfm_pref_screen_title">Bloqueur de pub</string>
     <string name="hfm_update_hosts">Mettre à jour le fichier host</string>
     <string name="hfm_update_hosts_summary">Télécharger et appliquer le nouveau fichier hosts</string>
@@ -230,8 +230,8 @@
     <string name="recents_clear_all_dismiss_all_summary">Inclure les tâches de premier plan</string>
 
     <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Double-cliquez pour mettre en veille</string>
-    <string name="double_tap_sleep_nav_bar_summary">Double-cliquez sur la barre de navigation pour mettre l\'appareil en veille</string>
+    <string name="double_tap_sleep_nav_bar_title">Double-cliquer pour mettre en veille</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double-cliquer sur la barre de navigation pour mettre l\'appareil en veille</string>
 	
 	<!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Bloqueur de wakelocks</string>
@@ -239,7 +239,7 @@
     <string name="wakelock_blocker_save">Enregistrer</string>
     <string name="wakelock_list_header">Wakelocks disponible</string>
     <string name="wakelock_blocker_reload">Recharger</string>
-    <string name="wakelock_blocker_warning_title">Procédez avec prudence</string>
+    <string name="wakelock_blocker_warning_title">Procéder avec prudence</string>
     <string name="wakelock_blocker_warning">Blocage des wakelocks qui peut potentiellement causer des instabilités,crashes ou des pertes de données</string>
 
     <!-- Linked / unlinked notification volume -->
@@ -274,7 +274,7 @@
     <string name="doze_shake_mode_summary">Utiliser le détecteur de vibration pour déclencher l\'activation</string>
     <string name="doze_shake_mode_test_summary">Voulez-vous tester le capteur de vibration ?</string>
     <string name="doze_shake_mode_test_result">Appliquer la valeur actuelle ?</string>
-    <string name="doze_shake_test">Secouez votre périphérique maintenant</string>
+    <string name="doze_shake_test">Secouer votre périphérique maintenant</string>
     <string name="doze_shake_it">Secousse détecté !</string>
 
     <string name="doze_shake_acc_threshold_title">Seuil de secousse</string>
