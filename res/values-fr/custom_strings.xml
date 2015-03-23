@@ -7,7 +7,7 @@
 
     <!-- TERMINUS TWEAKS -->
     <string name="header_category_terminus">Personnalisations</string>
-    <string name="terminus_settings_title">Terminus Tweaks</string>
+    <string name="terminus_settings_title">Réglages Terminus</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -23,26 +23,26 @@
 
     <!-- Kill app long press back -->
     <string name="kill_app_longpress_back">Tuez l\'application avec le bouton retour</string>
-    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier planen appuyant longuement sur la touche retour</string>
+    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier plan en appuyant longuement sur la touche retour</string>
 
     <!-- Navigation Bar -->
     <string name="navigation_bar_title">Barre de navigation</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Hauteur de barre de navigation</string>
-    <string name="navigation_bar_height_48">48dp (défault)</string>
-    <string name="navigation_bar_height_44">44dp</string>
-    <string name="navigation_bar_height_40">40dp</string>
-    <string name="navigation_bar_height_36">36dp</string>
-    <string name="navigation_bar_height_32">32dp</string>
-    <string name="navigation_bar_height_28">28dp</string>
-    <string name="navigation_bar_height_24">24dp</string>
-    <string name="navigation_bar_height_20">20dp</string>
-    <string name="navigation_bar_height_0">0dp (cacher)</string>
+    <string name="navigation_bar_height_48">48 dp (par défaut)</string>
+    <string name="navigation_bar_height_44">44 dp</string>
+    <string name="navigation_bar_height_40">40 dp</string>
+    <string name="navigation_bar_height_36">36 dp</string>
+    <string name="navigation_bar_height_32">32 dp</string>
+    <string name="navigation_bar_height_28">28 dp</string>
+    <string name="navigation_bar_height_24">24 dp</string>
+    <string name="navigation_bar_height_20">20 dp</string>
+    <string name="navigation_bar_height_0">0 dp (cacher)</string>
     <!-- Navigation Bar Customization -->
     <string name="navbar_customization_title">Boutons et disposition</string>
-    <string name="navbar_customization_summary">Ajoutez et/ou réordonnez des boutons</string>
-    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap save to commit your changes, or restore to reset the layout to default settings.</string>
-    <string name="navigation_restore_button_text">Rétablir\ndefaults</string>
+    <string name="navbar_customization_summary">Ajoutez et/ou réarranger les boutons</string>
+    <string name="navigation_bar_help_text">Pour commencer appuyer sur l\'icône d\'édition pour déverrouiller la configuration de la barre de navigation.\n\nVous pouvez appuyer sur une icône pour modifier son raccourci, ou appuyer longuement pour réarranger la disposition.\n\nAppuyer sur \'sauvegarder\' pour valider vos modifications, ou \'restaurer par défaut\' pour réinitialiser la configuration.</string>
+    <string name="navigation_restore_button_text">Rétablir\npar défaut</string>
     <string name="navigation_edit_button_text">Éditer</string>
     <string name="navigation_save_button_text">Enregistrer</string>
     <string name="navigation_bar_reset_message">Supprimer les paramètres actuels et restaurer la configuration par défaut ?</string>
@@ -109,7 +109,7 @@
     <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
     <string name="pref_volume_wake_summary">Appuyez sur les boutons de volume haut/bas pour réveiller l\'appareil</string>
     <!-- Volume adjust sound -->
-    <string name="volume_key_adjust_sound_title">Adjustement du son des touches de volume</string>
+    <string name="volume_key_adjust_sound_title">Ajustement du son des touches de volume</string>
     <string name="volume_key_adjust_sound_summary">Jouer un son lors du réglage de volume avec les touches de volume</string>
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Contrôles de la musique avec les boutons de volume</string>
@@ -159,7 +159,7 @@
     <string name="status_bar_show_weather_summary">Afficher la météo dans l\'en tête de la barre d\'état</string>
 
     <!-- Restart SystemUI -->
-    <string name="restart_systemui">Redémarrer le SystemUI</string>
+    <string name="restart_systemui">Redémarrer l'\interface utilisateur</string>
 
     <!-- LockClock and Weather -->
     <string name="lock_clock_title">Paramètres cLock</string>
@@ -169,8 +169,8 @@
 
     <!-- Quicksettings block on secure lockscreen -->
     <string name="qs_category">Paramètres rapides</string>
-    <string name="block_on_secure_keyguard_title">Désactiver sur l\'écran de vérouillage</string>
-    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l\'écran de vérouillage</string>
+    <string name="block_on_secure_keyguard_title">Désactiver sur l\'écran de verrouillage</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l\'écran de verrouillage</string>
 
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
@@ -200,7 +200,7 @@
     <string name="hfm_dialog_wait">Préparation,merci de patienter...</string>
     <string name="hfm_dialog_failed">La mise à jour du fichier hosts à échoué. Merci de réessayer.</string>
     <string name="hfm_dialog_success">/4 sources appliquées avec succès!</string>
-    <string name="hfm_dialog_conn_error">Erreur: Aucune connexion </string>
+    <string name="hfm_dialog_conn_error">Erreur : Aucune connexion </string>
 
     <!-- BitSyko Layers  -->
     <string name="bitsyko_layers">Layers</string>
@@ -253,21 +253,21 @@
     <string name="doze_overwrite_value_title">Écraser la valeur</string>
     <string name="doze_overwrite_value_summary">Autoriser à remplacer la valeur par défaut avec la configuration de l\'utilisateur</string>
 
-    <string name="doze_list_mode_title">Mode de sommeil Doze mode</string>
-    <string name="doze_list_mode_summary">Option pour configurer le mode de sommeil</string>
+    <string name="doze_list_mode_title">Affichage en mode veille</string>
+    <string name="doze_list_mode_summary">Option pour configurer le mode veille</string>
 
     <string name="doze_pulse_title">Réglages du temps</string>
-    <string name="doze_pulse_duration_in_title">Apparaître en fondu</string>
+    <string name="doze_pulse_duration_in_title">Apparition en fondu</string>
     <string name="doze_pulse_duration_in_summary"></string>
 
-    <string name="doze_pulse_duration_visible_title">Durée de visibilité </string>
+    <string name="doze_pulse_duration_visible_title">Durée de visibilité</string>
     <string name="doze_pulse_duration_visible_summary"></string>
 
     <string name="doze_pulse_duration_out_title">Disparaître en fondu</string>
     <string name="doze_pulse_duration_out_summary"></string>
 
-    <string name="doze_pulse_on_notifications_title">Impulsion sur les notifications</string>
-    <string name="doze_pulse_on_notifications_summary">Activation de détente seulement sur notifications en attente</string>
+    <string name="doze_pulse_on_notifications_title">Affichage à l\'écran des notifications</string>
+    <string name="doze_pulse_on_notifications_summary">Activation de l\'affichage seulement sur les notifications en attentes</string>
 
     <string name="doze_shake_title">Paramètres de vibration</string>
     <string name="doze_shake_mode_title">Mode de vibration</string>
@@ -278,7 +278,7 @@
     <string name="doze_shake_it">Secousse détecté !</string>
 
     <string name="doze_shake_acc_threshold_title">Seuil de secousse</string>
-    <string name="doze_shake_acc_threshold_summary">Configurez la force de secousse requise pour déclencher l\'activation</string>
+    <string name="doze_shake_acc_threshold_summary">Configurer la force de secousse nécessaire pour déclencher l\'activation</string>
 
     <string name="doze_time_mode_title">Montrer l\'horloge &amp; date</string>
     <string name="doze_time_mode_summary">Forcer à montrer le temps quand il n'y a pas de notification</string>
