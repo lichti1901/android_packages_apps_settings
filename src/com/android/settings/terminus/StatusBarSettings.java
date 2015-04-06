@@ -31,16 +31,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
 			
-    // Quick Pulldown
-    public static final String STATUS_BAR_QUICK_QS_PULLDOWN = "status_bar_quick_qs_pulldown";
     // Clock summary
     private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
 
     // Statusbar battery percent
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
-    // Quick Pulldown
-    private SwitchPreference mStatusBarQuickQsPulldown;
     // Clock summary
     private PreferenceScreen mClockStyle;
 
@@ -68,14 +64,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         enableStatusBarBatteryDependents(batteryStyle);
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
 
-        // Quick Pulldown
-        mStatusBarQuickQsPulldown = (SwitchPreference) getPreferenceScreen()
-                .findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
-        mStatusBarQuickQsPulldown.setChecked((Settings.System.getInt(getActivity()
-                .getApplicationContext().getContentResolver(),
-                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0) == 1));
-        mStatusBarQuickQsPulldown.setOnPreferenceChangeListener(this);
-
         // Clock summary
         mClockStyle = (PreferenceScreen) getPreferenceScreen()
                 .findPreference(KEY_STATUS_BAR_CLOCK);
@@ -99,11 +87,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver,
                     Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, batteryShowPercent);
             mStatusBarBatteryShowPercent.setSummary(mStatusBarBatteryShowPercent.getEntries()[index]);
-            return true;
-        } else if (preference == mStatusBarQuickQsPulldown) {
-            boolean value = (Boolean) objValue;
-            Settings.System.putInt(resolver,
-                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, value ? 1 : 0);
             return true;
         }
         return false;

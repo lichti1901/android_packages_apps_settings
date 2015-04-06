@@ -22,6 +22,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.settings.R;
@@ -34,8 +35,10 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
     private Preference mQSTiles;
 
     private static final String SMART_PULLDOWN = "smart_pulldown";
+    public static final String STATUS_BAR_QUICK_QS_PULLDOWN = "status_bar_quick_qs_pulldown";
 
     private ListPreference mSmartPulldown;
+    private SwitchPreference mStatusBarQuickQsPulldown;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,6 +46,13 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         addPreferencesFromResource(R.xml.notification_drawer_settings);
 
         mQSTiles = findPreference("qs_order");
+
+        mStatusBarQuickQsPulldown = (SwitchPreference) getPreferenceScreen()
+                .findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
+        mStatusBarQuickQsPulldown.setChecked((Settings.System.getInt(getActivity()
+                .getApplicationContext().getContentResolver(),
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0) == 1));
+        mStatusBarQuickQsPulldown.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -79,6 +89,11 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
             Settings.System.putIntForUser(resolver, Settings.System.QS_SMART_PULLDOWN,
                     smartPulldownValue, UserHandle.USER_CURRENT);
             mSmartPulldown.setSummary(mSmartPulldown.getEntries()[index]);
+            return true;
+        } else if (preference == mStatusBarQuickQsPulldown) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, value ? 1 : 0);
             return true;
         }
         return false;
