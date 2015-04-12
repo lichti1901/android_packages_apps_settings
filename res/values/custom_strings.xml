@@ -23,6 +23,9 @@
     <string name="reset_message">Reset all entries to default?</string>
     <string name="style_title">Style</string>
     <string name="add">Add</string>
+    <string name="colors_title">Colors</string>
+    <string name="text_title">Text</string>
+    <string name="icons_title">Icons</string>
 
     <!-- Kill app long press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
