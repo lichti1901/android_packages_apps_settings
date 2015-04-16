@@ -22,12 +22,6 @@
             android:title="@string/status_bar_clock" />
 
     <PreferenceScreen
-            android:key="status_bar_network_speed_settings"
-            android:title="@string/status_bar_network_speed_settings_title"
-            android:summary="@string/status_bar_network_speed_settings_summary"
-            android:fragment="com.android.settings.terminus.StatusBarNetworkSpeedSettings" />
-
-    <PreferenceScreen
             android:key="notification_drawer_settings"
             android:title="@string/notification_drawer_title"
             android:fragment="com.android.settings.terminus.NotificationDrawerSettings" />
