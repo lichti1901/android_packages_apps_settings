@@ -43,8 +43,8 @@ import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceCategory;
 import android.preference.SeekBarVolumizer;
+import android.preference.SwitchPreference;
 import android.preference.TwoStatePreference;
-import android.preference.CheckBoxPreference;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
 import android.provider.SearchIndexableResource;
@@ -109,7 +109,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private Preference mHeadsUp;
     private ComponentName mSuppressor;
     private int mRingerMode = -1;
-    private CheckBoxPreference mVolumeLinkNotification;
+    private SwitchPreference mVolumeLinkNotification;
     private PreferenceCategory mSoundCategory;
 
     @Override
@@ -140,7 +140,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                         com.android.internal.R.drawable.ic_audio_ring_notif_mute);
 
         if (mVoiceCapable) {
-            mVolumeLinkNotification = (CheckBoxPreference) mSoundCategory.findPreference(KEY_VOLUME_LINK_NOTIFICATION);
+            mVolumeLinkNotification = (SwitchPreference) mSoundCategory.findPreference(KEY_VOLUME_LINK_NOTIFICATION);
             mRingPreference =
                     initVolumePreference(KEY_RING_VOLUME, AudioManager.STREAM_RING,
                             com.android.internal.R.drawable.ic_audio_ring_notif_mute);
