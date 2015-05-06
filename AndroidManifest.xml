@@ -2163,5 +2163,8 @@
 
         <service android:name="com.android.settings.terminus.hfm.CheckHosts" />
 
+        <activity android:name="com.android.settings.terminus.hfm.HfmWhitelist"
+                  android:label="@string/hfm_whitelist_title" />
+
     </application>
 </manifest>
