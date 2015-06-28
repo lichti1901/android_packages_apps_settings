@@ -115,6 +115,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.terminus.qs.QSTiles;
 import com.android.settings.headsup.HeadsUpSettings;
+import com.android.settings.WifiCallingSettings;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -309,6 +310,7 @@ public class SettingsActivity extends Activity
 	    QSTiles.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
     	    HeadsUpSettings.class.getName()
+            WifiCallingSettings.class.getName()
     };
 
 
